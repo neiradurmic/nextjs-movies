@@ -19,7 +19,7 @@ export default function Home() {
   const [entered, setEntered] = useAtom(accessed)
 
   const handleAccess = () => {
-    setEntered(!entered)
+    setEntered(true)
   }
 
   const {
